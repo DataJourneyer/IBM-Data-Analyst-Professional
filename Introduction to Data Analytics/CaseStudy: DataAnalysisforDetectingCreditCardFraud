@@ -1,0 +1,80 @@
+# Case Study: Data Analysis for Detecting Credit Card Fraud
+ <img src="https://raw.githubusercontent.com/roshangrewal/IBM-Data-Science-Professional-Certification/master/IBM-Banner.png" align="right" width="120" />
+
+## Using Data Analysis for Detecting Credit Card Fraud
+Companies today are employing analytical techniques for the early detection of credit card frauds, a key factor in mitigating fraud damage. The most common type of credit card fraud does not involve the physical stealing of the card, but that of credit card credentials, which are then used for online purchases.
+
+<p align="center">
+<img src="https://b1006343.smushcdn.com/1006343/wp-content/uploads/2022/01/AdobeStock_352096201.jpeg?lossy=2&strip=1&webp=1" width=80% height=80%>/>
+
+Imagine that you have been hired as a Data Analyst to work in the Credit Card Division of a bank. And your first assignment is to join your team in using data analysis for the early detection and mitigation of credit card fraud. 
+
+In order to prescribe a way forward, that is, suggest what should be done in order for fraud to get detected early on, you need to understand what a fraudulent transaction looks like. And for that you need to start by looking at historical data.
+
+---
+
+## Here is a sample data set that captures the credit card transaction details for a few users. 
+
+<p align="center">
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*aL-06HbFfdRwWq1a" width=80% height=80%> />
+
+Descriptive techniques of analysis, that is, techniques that help you gain an understanding of what happened, include the identification of patterns and anomalies in data. Anomalies signify a variation in a pattern that seems uncharacteristic, or, out of the ordinary. Anomalies may occur for perfectly valid and genuine reasons, but they do warrant an evaluation because they can be a sign of fraudulent activity.
+## Past studies have suggested that some of the common events that you may need to watch out for include:
+A change in frequency of orders placed, for example, a customer who typically places a couple of orders a month, suddenly makes numerous transactions within a short span of time, sometimes within minutes of the previous order.
+Orders that are significantly higher than a user’s average transaction.
+Bulk orders of the same item with slight variations such as color or size—especially if this is atypical of the user’s transaction history.
+A sudden change in delivery preference, for example, a change from home or office delivery address to in-store, warehouse, or PO Box delivery.
+A mismatched IP Address, or an IP Address that is not from the general location or area of the billing address.
+
+## Before you can analyze the data for patterns and anomalies, you need to:
+
+Identify and gather all data points that can be of relevance to your use case. For example, the card holder’s details, transaction details, delivery details, location, and network are some of the data points that could be explored.
+Clean the data. You need to identify and fix issues in the data that can lead to false or incomplete findings, such as missing data values and incorrect data. You may also need to standardize data formats in some cases, for example, the date fields.
+
+Finally, when you arrive at the findings, you will create appropriate visualizations that communicate your findings to your audience. The graph below samples one such visualization that you would use to capture a trend hidden in the sample data set shared earlier on in the case study.
+
+---
+
+## In the next section you will be asked to answer the following 5 (five) questions based on this case study:
+
+1. List at least 5 (five) data points that are required for the analysis and detection of a credit card fraud. 
+2. Identify 3 (three) errors/issues that could impact the accuracy of your findings, based on a data table provided. 
+3. Identify 2 (two) anomalies, or unexpected behaviors, that would lead you to believe the transaction may be suspect, based on a data table provided. 
+4. Briefly explain your key take-away from the provided data visualization chart. 
+5. Identify the type of analysis that you are performing when you are analyzing historical credit card data to understand what a fraudulent transaction looks like. 
+
+---
+
+## MY SUBMISSION:
+
+## Data points that are required for the analysis and detection of a credit card fraud:
+
+
+1. Transaction Value measures how much, on average, user is spending on each purchase. In case of a significantly higher value should be taken as out of ordinary and anomaly.
+
+2. Transaction Date and Time define a particular day and time  when the transfer was done (successful or not). By analysing how frequentl a user transacts we can identificate patterns and anomalies in data.
+
+3. User ID and Account Number are unique and allow to identify uncharacteristic user`s activity that can be a sign of fraudulent activity.
+
+4. IP Address and Shipping Address remain almost unchanged. Accordingly, a mismatched IP Address and Shipping Address that is not from the general location or area of the billing address are reasons for alarm.
+
+5. Product Category and Units Purchased that are significantly different from a user’s typical transaction may be a particularly big red flag.
+
+## Errors/issues that could impact the accuracy of your findings, based on a data table provided:
+
+Missing data in IP Address
+Missing data in Transaction Value
+Incorrect data formats
+
+## Anomalies, or unexpected behaviors, that would lead you to believe the transaction may be suspect, based on a data table provided:
+
+User johnp made three transactions on the same day with a significant increased value and from the other IP Address, the Shipping Adress was changed as well as bulk orders of the same item that is atypical of this user’s transaction history.
+User ellend made his last purchase from the other IP Address with a significant increased value and to the different Shipping Adress, that is suspicious.
+
+## My key take-away from the provided data visualization chart:
+
+The data visualization chart shows a big spike in the Transaction Value of two Users johnp and ellend that indicates their suspicious  and anomalous behaviour.
+
+## The type of analysis that I am performing when I am analyzing historical credit card data to understand what a fraudulent transaction looks like:
+
+The data visualization chart shows a big spike in the Transaction Value of two Users johnp and ellend that indicates their suspicious and anomalous behaviour. 
